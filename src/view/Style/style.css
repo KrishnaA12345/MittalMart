@@ -1,0 +1,180 @@
+.cur {
+    cursor: pointer;
+    /*used*/
+}
+
+
+/* .design h1{
+    font:bold;
+    font-style: oblique;
+    color: brown;
+
+} */
+/* h1 {
+    color: rgb(18, 122, 84);
+    font: bold;
+    text-decoration: underline;
+    font-style: italic
+} */
+
+/* Img {
+    height: 200px;
+    width: 100px;
+} */
+
+.navmenubar {
+    background-color: rgb(40, 114, 189);
+    color: brown;
+    /*used*/
+    text-align: center;
+
+}
+
+
+.navfooter {
+    background-color: rgb(234, 238, 241);
+    color: rgb(15, 168, 25);
+    /*used*/
+    text-align: center;
+    /* height: 300px; */
+    width: 100%;
+    padding: 20px;
+
+
+    font-weight: bold;
+
+}
+
+.navbarstyle {
+    width: 100%;
+
+
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* 
+SLIDER SIZE AND IMAGE STYLE */
+.slidersize {
+    margin-top: 10px;
+    width: 100%;
+    /*used*/
+    height: 300px;
+}
+
+.sliderimg {
+
+    width: 100%;
+    /*used*/
+    height: 300px;
+}
+
+
+.crdstyle {
+    background-color: beige;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    height: 450px;
+    width: 16rem;
+}
+
+.crdimage {
+    height: 200px;
+
+
+}
+
+.trendingstyle {
+    text-align: center;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.offerstyle {
+    text-align: center;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+.shopcategorydetail {
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+.formheading {
+    width: 100%;
+    margin-left: 450px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+
+.register-form input {
+    width: 80%;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px;
+    border-bottom: 1px solid saddlebrown;
+    background: transparent;
+    background-color: bisque;
+
+}
+
+.regbutton {
+    background: rgb(10, 136, 182);
+    background-color: rgb(8, 114, 168);
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+.login-form input {
+    width: 80%;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0px;
+    border-bottom: 1px solid saddlebrown;
+    background: transparent;
+    background-color: bisque;
+}
+
+.detailimg {
+    height: 300px;
+    width: 16rem;
+    padding: 20px;
+}
+
+.detailrowstyle {
+    margin-top: 10px;
+}
+
+.detailstyle {
+    height: 300px;
+    width: 16rem;
+
+
+}
+
+/* used in detail.js */
+
+/* .productimgstyle{
+    height: 300px;                    s
+  
+}
+.productnamestyle{
+    color: brown;
+    font-weight: bold;
+    font-style: oblique;
+} */
