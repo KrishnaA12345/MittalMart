@@ -54,22 +54,22 @@ export var Category = [
 ]
 export var product = [
      {
-          id: 1, name: 'Baby Care', Img: require('../Img/Baby Care/Baby_Care_copy.jpg'),
+          id: 1, name: 'Baby Care',item:'baby', Img: require('../Img/Baby Care/Baby_Care_copy.jpg'),
           Text: 'Available all Type of Baby  Products in different ranges.'
 
      },
      {
-          id: 2, name: 'Rice Atta & Dal', Img: require('../Img/Rice Atta and Dal/RiceAttaDal.jpg'),
+          id: 2, name: 'Rice Atta & Dal',item:'rice', Img: require('../Img/Rice Atta and Dal/RiceAttaDal.jpg'),
           Text: 'Available all Varities of Rice Atta & Dal in different ranges.'
      },
      {
 
-          id: 3, name: 'OilMasala&Sauces', Img: require('../Img/oil Masala And Sauces/OilMasalaSauces.jpg'),
+          id: 3, name: 'OilMasala&Sauces', item:'oil',Img: require('../Img/oil Masala And Sauces/OilMasalaSauces.jpg'),
           Text: 'Available all Type of Cleaning&Household Products in different ranges.'
      },
      {
 
-          id: 4, name: 'Drinks&Juices', Img: require('../Img/Drinks And Juices/DrinksJuices2.jpg'),
+          id: 4, name: 'Drinks&Juices', item:'drink',Img: require('../Img/Drinks And Juices/DrinksJuices2.jpg'),
           Text: 'Available all Type of Drinks&Juices in different ranges.'
      },
      {

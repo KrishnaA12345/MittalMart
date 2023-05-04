@@ -1,12 +1,15 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import { Offers, Category, trending } from "../Data/Data";
+import { Offers, Category, trending, Baby_care, Rice_Atta_Dal } from "../Data/Data";
 function Details() {
     const loc = useLocation()
     const [product] = useState(loc.state)
     console.log(product);
+let {data,shop} = loc.state
 
+console.log(data);
+console.log(shop);
     function shopby() {
         console.log("shop");
         /* return(
@@ -160,9 +163,42 @@ function Details() {
                                     })
                                     : <>
                                         <div>
-                                            <h2 className="productnamestyle">{product.name} </h2>
-                                            <img src={product.Img} className="productimgstyle" />
+                                            <h2 className="productnamestyle">{data.name} </h2>
+                                            <img src={data.Img} className="productimgstyle" />
                                         </div>
+                                      
+                                            <Row>
+
+    {
+        shop==="baby" ?Baby_care.map(function(d){
+            return(
+                <><Col lg={4}>
+                    <div className="babyproduct">
+                        <img src={d.Img} style={{width:'100%',height:300}}/>
+                                <h5>{d.name}</h5>
+                                <h5>{d.MRP}</h5>
+                                </div>
+                 </Col>
+
+                </>
+            )
+        }):Rice_Atta_Dal.map(function(d){
+            return(
+                <><Col lg={4}>
+                    <div className="babyproduct">
+                        <img src={d.Img} style={{width:'100%',height:300}}/>
+                                <h5>{d.name}</h5>
+                                <h5>{d.MRP}</h5>
+                                </div>
+                 </Col>
+
+                </>
+            )
+        })
+    }
+    
+                                     
+                                        </Row>
                                     </>
 
                     }:

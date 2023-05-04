@@ -178,3 +178,10 @@ SLIDER SIZE AND IMAGE STYLE */
     font-weight: bold;
     font-style: oblique;
 } */
+
+.babyproduct{
+
+    border: 1px solid rgb(218, 213, 213);
+    padding: 20px;
+    margin: 20px;
+}

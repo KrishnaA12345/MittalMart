@@ -97,7 +97,7 @@ function Home() {
               return (
 
                 <Col >
-                  <Card className="crdstyle" onClick={() => nav('/Details', { state: d })}>
+                  <Card className="crdstyle" onClick={() => nav('/Details', { state:{ data:d,shop:d.item }})}>
                     <Card.Img variant="top" src={d.Img} />
                     <Card.Body>
                       {/* <Card.Title>{d.name}</Card.Title> */}
